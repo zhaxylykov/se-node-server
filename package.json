@@ -1,0 +1,25 @@
+{
+  "name": "se-node-server",
+  "version": "1.0.0",
+  "description": "temp server for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "dev": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar6725/se-node-server.git"
+  },
+  "author": "askar.kossymzhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oscar6725/se-node-server/issues"
+  },
+  "homepage": "https://github.com/oscar6725/se-node-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  }
+}
